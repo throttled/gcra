@@ -21,9 +21,17 @@ This page tracks various projects that are based on
 * [redis-gcra][redis-gcra]: An implementation that runs in
   Lua from within Redis and which provides a Ruby API.
 
+## Python
+
+* [throttled-py][throttled-py]: An implementation that provides
+  Redis and In-Memory(Thread-Safety) storage backends, supports
+  immediate / wait-retry modes and both function and decorator
+  based usage.
+
 
 [gcra]: https://en.wikipedia.org/wiki/Generic_cell_rate_algorithm
 [gcra-ruby]: https://github.com/Barzahlen/gcra-ruby
 [redis-cell]: https://github.com/brandur/redis-cell
 [redis-gcra]: https://github.com/rwz/redis-gcra
 [throttled]: https://github.com/throttled/throttled
+[throttled-py]: https://github.com/ZhuoZhuoCrayon/throttled-py
